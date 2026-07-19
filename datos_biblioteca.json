@@ -1,0 +1,1567 @@
+{
+    "libros": [
+        {
+            "codigo": "L001",
+            "titulo": "EL principito",
+            "autor": "Jorge Sanchez",
+            "anio_publicacion": 2002,
+            "categoria": "Clasico",
+            "stock": 0,
+            "estado": "Prestado",
+            "cantidad_prestamos": 3
+        },
+        {
+            "codigo": "L002",
+            "titulo": "el libro trol",
+            "autor": "rubiusomg",
+            "anio_publicacion": 2014,
+            "categoria": "Ficcion",
+            "stock": 2,
+            "estado": "Disponible",
+            "cantidad_prestamos": 1
+        },
+        {
+            "codigo": "L003",
+            "titulo": "ALQUIMISTA",
+            "autor": "Perez",
+            "anio_publicacion": 2006,
+            "categoria": "Ficcion",
+            "stock": 1,
+            "estado": "Disponible",
+            "cantidad_prestamos": 1
+        },
+        {
+            "codigo": "L004",
+            "titulo": "Dragones",
+            "autor": "Fernandez",
+            "anio_publicacion": 2001,
+            "categoria": "Ficcion",
+            "stock": 1,
+            "estado": "Disponible",
+            "cantidad_prestamos": 0
+        },
+        {
+            "codigo": "L005",
+            "titulo": "Frost",
+            "autor": "CarlosSpycy",
+            "anio_publicacion": 2009,
+            "categoria": "Ficcion",
+            "stock": 1,
+            "estado": "Disponible",
+            "cantidad_prestamos": 0
+        },
+        {
+            "codigo": "L006",
+            "titulo": "LocalHost",
+            "autor": "Hack",
+            "anio_publicacion": 2007,
+            "categoria": "Ficcion",
+            "stock": 1,
+            "estado": "Disponible",
+            "cantidad_prestamos": 0
+        }
+    ],
+    "usuarios": [
+        {
+            "id_usuario": "U001",
+            "nombre": "Vinicio",
+            "email": "vinicio@gmail.com",
+            "telefono": "12345678",
+            "fecha_registro": "2026-07-10",
+            "libros_activos": [
+                "L001"
+            ],
+            "estado": "Activo"
+        },
+        {
+            "id_usuario": "U002",
+            "nombre": "riquelme",
+            "email": "vinicio@gmail.com",
+            "telefono": "12345678",
+            "fecha_registro": "2026-07-10",
+            "libros_activos": [],
+            "estado": "Activo"
+        },
+        {
+            "id_usuario": "U003",
+            "nombre": "Carlos López",
+            "email": "carlos@email.com",
+            "telefono": "50255003",
+            "fecha_registro": "2026-07-13",
+            "libros_activos": [],
+            "estado": "Activo"
+        },
+        {
+            "id_usuario": "U004",
+            "nombre": "Ana Martínez",
+            "email": "ana@email.com",
+            "telefono": "50255004",
+            "fecha_registro": "2026-07-13",
+            "libros_activos": [],
+            "estado": "Activo"
+        }
+    ],
+    "prestamos": [
+        {
+            "id_prestamo": 1,
+            "codigo_libro": "L001",
+            "id_usuario": "U001",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 2,
+            "codigo_libro": "L001",
+            "id_usuario": "U002",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 3,
+            "codigo_libro": "L001",
+            "id_usuario": "U001",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 4,
+            "codigo_libro": "L002",
+            "id_usuario": "U002",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 5,
+            "codigo_libro": "L003",
+            "id_usuario": "U003",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 6,
+            "codigo_libro": "L001",
+            "id_usuario": "U001",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 7,
+            "codigo_libro": "L002",
+            "id_usuario": "U002",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 8,
+            "codigo_libro": "L001",
+            "id_usuario": "U001",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 9,
+            "codigo_libro": "L002",
+            "id_usuario": "U002",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 10,
+            "codigo_libro": "L003",
+            "id_usuario": "U003",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 11,
+            "codigo_libro": "L001",
+            "id_usuario": "U001",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 12,
+            "codigo_libro": "L002",
+            "id_usuario": "U002",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 13,
+            "codigo_libro": "L001",
+            "id_usuario": "U002",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 14,
+            "codigo_libro": "L001",
+            "id_usuario": "U001",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-10",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 15,
+            "codigo_libro": "L002",
+            "id_usuario": "U002",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 16,
+            "codigo_libro": "L003",
+            "id_usuario": "U003",
+            "fecha_prestamo": "2026-07-09",
+            "fecha_devolucion_esperada": "2026-08-08",
+            "fecha_devolucion_real": "2026-07-09",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 17,
+            "codigo_libro": "l001",
+            "id_usuario": "U001",
+            "fecha_prestamo": "2026-07-10",
+            "fecha_devolucion_esperada": "2026-08-09",
+            "fecha_devolucion_real": "2026-07-10",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 18,
+            "codigo_libro": "L001",
+            "id_usuario": "U001",
+            "fecha_prestamo": "2026-07-10",
+            "fecha_devolucion_esperada": "2026-08-09",
+            "fecha_devolucion_real": "2026-07-10",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 19,
+            "codigo_libro": "L001",
+            "id_usuario": "U002",
+            "fecha_prestamo": "2026-07-10",
+            "fecha_devolucion_esperada": "2026-08-09",
+            "fecha_devolucion_real": "2026-07-10",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 20,
+            "codigo_libro": "L001",
+            "id_usuario": "U001",
+            "fecha_prestamo": "2026-07-10",
+            "fecha_devolucion_esperada": "2026-08-09",
+            "fecha_devolucion_real": "Pendiente",
+            "estado": "Activo"
+        },
+        {
+            "id_prestamo": 21,
+            "codigo_libro": "L002",
+            "id_usuario": "U002",
+            "fecha_prestamo": "2026-07-13",
+            "fecha_devolucion_esperada": "2026-08-12",
+            "fecha_devolucion_real": "2026-07-13",
+            "estado": "Devuelto"
+        },
+        {
+            "id_prestamo": 22,
+            "codigo_libro": "L003",
+            "id_usuario": "U003",
+            "fecha_prestamo": "2026-07-13",
+            "fecha_devolucion_esperada": "2026-08-12",
+            "fecha_devolucion_real": "2026-07-13",
+            "estado": "Devuelto"
+        }
+    ],
+    "colas_espera": {
+        "L001": [
+            "U002",
+            "U002",
+            "U004"
+        ]
+    },
+    "historial": [
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario Ana Martínez en espera de 'EL principito'",
+            "timestamp": "2026-07-13 00:33:36",
+            "datos": {
+                "codigo_libro": "L001",
+                "id_usuario": "U004"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario riquelme en espera de 'EL principito'",
+            "timestamp": "2026-07-13 00:33:36",
+            "datos": {
+                "codigo_libro": "L001",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'ALQUIMISTA' (a tiempo)",
+            "timestamp": "2026-07-13 00:33:36",
+            "datos": {
+                "id_prestamo": 22,
+                "codigo_libro": "L003",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'el libro trol' (a tiempo)",
+            "timestamp": "2026-07-13 00:33:36",
+            "datos": {
+                "id_prestamo": 21,
+                "codigo_libro": "L002",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'ALQUIMISTA' a Carlos López",
+            "timestamp": "2026-07-13 00:33:36",
+            "datos": {
+                "id_prestamo": 22,
+                "codigo_libro": "L003",
+                "id_usuario": "U003"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'el libro trol' a riquelme",
+            "timestamp": "2026-07-13 00:33:36",
+            "datos": {
+                "id_prestamo": 21,
+                "codigo_libro": "L002",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Ana Martínez",
+            "timestamp": "2026-07-13 00:33:36",
+            "datos": {
+                "id_usuario": "U004",
+                "nombre": "Ana Martínez"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Carlos López",
+            "timestamp": "2026-07-13 00:33:36",
+            "datos": {
+                "id_usuario": "U003",
+                "nombre": "Carlos López"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: LocalHost",
+            "timestamp": "2026-07-10 11:13:52",
+            "datos": {
+                "codigo": "L006",
+                "titulo": "LocalHost"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Frost",
+            "timestamp": "2026-07-10 11:13:21",
+            "datos": {
+                "codigo": "L005",
+                "titulo": "Frost"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Dragones",
+            "timestamp": "2026-07-10 11:12:59",
+            "datos": {
+                "codigo": "L004",
+                "titulo": "Dragones"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: ALQUIMISTA",
+            "timestamp": "2026-07-10 11:12:33",
+            "datos": {
+                "codigo": "L003",
+                "titulo": "ALQUIMISTA"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario riquelme en espera de 'EL principito' (sin stock)",
+            "timestamp": "2026-07-10 11:07:07",
+            "datos": {
+                "codigo_libro": "L001",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'EL principito' a Vinicio",
+            "timestamp": "2026-07-10 11:06:36",
+            "datos": {
+                "id_prestamo": 20,
+                "codigo_libro": "L001",
+                "id_usuario": "U001"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'EL principito' (a tiempo)",
+            "timestamp": "2026-07-10 11:06:17",
+            "datos": {
+                "id_prestamo": 19,
+                "codigo_libro": "L001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "PRESTAMO_AUTOMATICO",
+            "descripcion": "Libro 'EL principito' asignado automáticamente a riquelme (primero en la lista de espera)",
+            "timestamp": "2026-07-10 11:05:29",
+            "datos": {
+                "id_prestamo": 19,
+                "codigo_libro": "L001",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'EL principito' (a tiempo)",
+            "timestamp": "2026-07-10 11:05:29",
+            "datos": {
+                "id_prestamo": 18,
+                "codigo_libro": "L001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario riquelme en espera de 'EL principito' (sin stock)",
+            "timestamp": "2026-07-10 11:04:36",
+            "datos": {
+                "codigo_libro": "L001",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: riquelme",
+            "timestamp": "2026-07-10 11:00:34",
+            "datos": {
+                "id_usuario": "U002",
+                "nombre": "riquelme"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: el libro trol",
+            "timestamp": "2026-07-10 10:56:14",
+            "datos": {
+                "codigo": "L002",
+                "titulo": "el libro trol"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: aa",
+            "timestamp": "2026-07-10 10:26:10",
+            "datos": {
+                "codigo": "l001"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'aa' (a tiempo)",
+            "timestamp": "2026-07-10 09:54:27",
+            "datos": {
+                "id_prestamo": 17,
+                "codigo_libro": "l001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'aa' a vinicio",
+            "timestamp": "2026-07-10 09:54:24",
+            "datos": {
+                "id_prestamo": 17,
+                "codigo_libro": "l001",
+                "id_usuario": "U001"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: aa",
+            "timestamp": "2026-07-10 09:54:05",
+            "datos": {
+                "codigo": "l001",
+                "titulo": "aa"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: Ana Martínez",
+            "timestamp": "2026-07-10 00:21:39",
+            "datos": {
+                "id_usuario": "U004",
+                "nombre": "Ana Martínez"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: TONY",
+            "timestamp": "2026-07-10 00:21:32",
+            "datos": {
+                "id_usuario": "U003",
+                "nombre": "TONY"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: VINICIO",
+            "timestamp": "2026-07-10 00:21:23",
+            "datos": {
+                "id_usuario": "U002",
+                "nombre": "VINICIO"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: DENGY",
+            "timestamp": "2026-07-10 00:21:13",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "DENGY"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Python Avanzado",
+            "timestamp": "2026-07-09 23:58:45",
+            "datos": {
+                "codigo": "L005"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Orgullo y Prejuicio",
+            "timestamp": "2026-07-09 23:58:36",
+            "datos": {
+                "codigo": "L004"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: PRINCIPITO",
+            "timestamp": "2026-07-09 23:58:25",
+            "datos": {
+                "codigo": "L003"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Python avanzado",
+            "timestamp": "2026-07-09 23:58:17",
+            "datos": {
+                "codigo": "L002"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: ALQUIMISTA",
+            "timestamp": "2026-07-09 23:57:53",
+            "datos": {
+                "codigo": "L001"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario Ana Martínez en espera de 'ALQUIMISTA'",
+            "timestamp": "2026-07-09 21:42:28",
+            "datos": {
+                "codigo_libro": "L001",
+                "id_usuario": "U004"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario VINICIO en espera de 'ALQUIMISTA'",
+            "timestamp": "2026-07-09 21:42:28",
+            "datos": {
+                "codigo_libro": "L001",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'PRINCIPITO' (a tiempo)",
+            "timestamp": "2026-07-09 21:42:28",
+            "datos": {
+                "id_prestamo": 16,
+                "codigo_libro": "L003",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Python avanzado' (a tiempo)",
+            "timestamp": "2026-07-09 21:42:28",
+            "datos": {
+                "id_prestamo": 15,
+                "codigo_libro": "L002",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'PRINCIPITO' a TONY",
+            "timestamp": "2026-07-09 21:42:28",
+            "datos": {
+                "id_prestamo": 16,
+                "codigo_libro": "L003",
+                "id_usuario": "U003"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'Python avanzado' a VINICIO",
+            "timestamp": "2026-07-09 21:42:28",
+            "datos": {
+                "id_prestamo": 15,
+                "codigo_libro": "L002",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Ana Martínez",
+            "timestamp": "2026-07-09 21:42:28",
+            "datos": {
+                "id_usuario": "U004",
+                "nombre": "Ana Martínez"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Python Avanzado",
+            "timestamp": "2026-07-09 21:42:28",
+            "datos": {
+                "codigo": "L005",
+                "titulo": "Python Avanzado"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Orgullo y Prejuicio",
+            "timestamp": "2026-07-09 21:42:28",
+            "datos": {
+                "codigo": "L004",
+                "titulo": "Orgullo y Prejuicio"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: PRINCIPITO",
+            "timestamp": "2026-07-09 21:20:45",
+            "datos": {
+                "codigo": "L003",
+                "titulo": "PRINCIPITO"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Python avanzado",
+            "timestamp": "2026-07-09 21:19:33",
+            "datos": {
+                "codigo": "L002",
+                "titulo": "Python avanzado"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: alquimista",
+            "timestamp": "2026-07-09 20:57:59",
+            "datos": {
+                "codigo": "L001",
+                "titulo": "alquimista"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: dengy",
+            "timestamp": "2026-07-09 20:58:15",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "dengy"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: VINI",
+            "timestamp": "2026-07-09 20:58:31",
+            "datos": {
+                "id_usuario": "U002",
+                "nombre": "VINI"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'alquimista' a dengy",
+            "timestamp": "2026-07-09 20:58:50",
+            "datos": {
+                "id_prestamo": 1,
+                "codigo_libro": "L001",
+                "id_usuario": "U001"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario VINI en espera de 'alquimista' (sin stock)",
+            "timestamp": "2026-07-09 20:59:14",
+            "datos": {
+                "codigo_libro": "L001",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'alquimista' (a tiempo)",
+            "timestamp": "2026-07-09 20:59:31",
+            "datos": {
+                "id_prestamo": 1,
+                "codigo_libro": "L001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "PRESTAMO_AUTOMATICO",
+            "descripcion": "Libro 'alquimista' asignado automáticamente a VINI (primero en la lista de espera)",
+            "timestamp": "2026-07-09 20:59:31",
+            "datos": {
+                "id_prestamo": 2,
+                "codigo_libro": "L001",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: alquimista",
+            "timestamp": "2026-07-09 21:00:24",
+            "datos": {
+                "codigo": "L001"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: dengy",
+            "timestamp": "2026-07-09 21:00:32",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "dengy"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Cien Años de Soledad",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "codigo": "L001",
+                "titulo": "Cien Años de Soledad"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Don Quijote",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "codigo": "L002",
+                "titulo": "Don Quijote"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: 1984",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "codigo": "L003",
+                "titulo": "1984"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Orgullo y Prejuicio",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "codigo": "L004",
+                "titulo": "Orgullo y Prejuicio"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Python Avanzado",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "codigo": "L005",
+                "titulo": "Python Avanzado"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Juan Pérez",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "Juan Pérez"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Carlos López",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "id_usuario": "U003",
+                "nombre": "Carlos López"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Ana Martínez",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "id_usuario": "U004",
+                "nombre": "Ana Martínez"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'Cien Años de Soledad' a Juan Pérez",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "id_prestamo": 3,
+                "codigo_libro": "L001",
+                "id_usuario": "U001"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'Don Quijote' a VINI",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "id_prestamo": 4,
+                "codigo_libro": "L002",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de '1984' a Carlos López",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "id_prestamo": 5,
+                "codigo_libro": "L003",
+                "id_usuario": "U003"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Cien Años de Soledad' (a tiempo)",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "id_prestamo": 3,
+                "codigo_libro": "L001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Cien Años de Soledad' (a tiempo)",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "id_prestamo": 2,
+                "codigo_libro": "L001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario VINI en espera de 'Don Quijote'",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "codigo_libro": "L002",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario Ana Martínez en espera de 'Don Quijote'",
+            "timestamp": "2026-07-09 21:04:06",
+            "datos": {
+                "codigo_libro": "L002",
+                "id_usuario": "U004"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'Cien Años de Soledad' a Juan Pérez",
+            "timestamp": "2026-07-09 21:04:27",
+            "datos": {
+                "id_prestamo": 6,
+                "codigo_libro": "L001",
+                "id_usuario": "U001"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Cien Años de Soledad' (a tiempo)",
+            "timestamp": "2026-07-09 21:04:27",
+            "datos": {
+                "id_prestamo": 6,
+                "codigo_libro": "L001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario VINI en espera de 'Don Quijote'",
+            "timestamp": "2026-07-09 21:04:27",
+            "datos": {
+                "codigo_libro": "L002",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario Ana Martínez en espera de 'Don Quijote'",
+            "timestamp": "2026-07-09 21:04:27",
+            "datos": {
+                "codigo_libro": "L002",
+                "id_usuario": "U004"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: Ana Martínez",
+            "timestamp": "2026-07-09 21:05:06",
+            "datos": {
+                "id_usuario": "U004",
+                "nombre": "Ana Martínez"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: Juan Pérez",
+            "timestamp": "2026-07-09 21:05:14",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "Juan Pérez"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de '1984' (a tiempo)",
+            "timestamp": "2026-07-09 21:05:26",
+            "datos": {
+                "id_prestamo": 5,
+                "codigo_libro": "L003",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Don Quijote' (a tiempo)",
+            "timestamp": "2026-07-09 21:05:28",
+            "datos": {
+                "id_prestamo": 4,
+                "codigo_libro": "L002",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "PRESTAMO_AUTOMATICO",
+            "descripcion": "Libro 'Don Quijote' asignado automáticamente a VINI (primero en la lista de espera)",
+            "timestamp": "2026-07-09 21:05:28",
+            "datos": {
+                "id_prestamo": 7,
+                "codigo_libro": "L002",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: Carlos López",
+            "timestamp": "2026-07-09 21:05:33",
+            "datos": {
+                "id_usuario": "U003",
+                "nombre": "Carlos López"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Don Quijote' (a tiempo)",
+            "timestamp": "2026-07-09 21:05:56",
+            "datos": {
+                "id_prestamo": 7,
+                "codigo_libro": "L002",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: VINI",
+            "timestamp": "2026-07-09 21:06:02",
+            "datos": {
+                "id_usuario": "U002",
+                "nombre": "VINI"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: DENGY",
+            "timestamp": "2026-07-09 21:07:01",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "DENGY"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: PRINCIPITO",
+            "timestamp": "2026-07-09 21:07:33",
+            "datos": {
+                "codigo": "L006",
+                "titulo": "PRINCIPITO"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: PRINCIPITO",
+            "timestamp": "2026-07-09 21:07:41",
+            "datos": {
+                "codigo": "L006"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Orgullo y Prejuicio",
+            "timestamp": "2026-07-09 21:09:11",
+            "datos": {
+                "codigo": "L004"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Python Avanzado",
+            "timestamp": "2026-07-09 21:09:18",
+            "datos": {
+                "codigo": "L005"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: 1984",
+            "timestamp": "2026-07-09 21:09:23",
+            "datos": {
+                "codigo": "L003"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Don Quijote",
+            "timestamp": "2026-07-09 21:09:26",
+            "datos": {
+                "codigo": "L002"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Cien Años de Soledad",
+            "timestamp": "2026-07-09 21:09:30",
+            "datos": {
+                "codigo": "L001"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: DENGY",
+            "timestamp": "2026-07-09 21:09:38",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "DENGY"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: ALQUIMISTA",
+            "timestamp": "2026-07-09 21:10:18",
+            "datos": {
+                "codigo": "L001",
+                "titulo": "ALQUIMISTA"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: ALQUIMISTA",
+            "timestamp": "2026-07-09 21:10:57",
+            "datos": {
+                "codigo": "L001"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Cien Años de Soledad",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "codigo": "L001",
+                "titulo": "Cien Años de Soledad"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Don Quijote",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "codigo": "L002",
+                "titulo": "Don Quijote"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: 1984",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "codigo": "L003",
+                "titulo": "1984"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Orgullo y Prejuicio",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "codigo": "L004",
+                "titulo": "Orgullo y Prejuicio"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: Python Avanzado",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "codigo": "L005",
+                "titulo": "Python Avanzado"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Juan Pérez",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "Juan Pérez"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: María García",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "id_usuario": "U002",
+                "nombre": "María García"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Carlos López",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "id_usuario": "U003",
+                "nombre": "Carlos López"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Ana Martínez",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "id_usuario": "U004",
+                "nombre": "Ana Martínez"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'Cien Años de Soledad' a Juan Pérez",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "id_prestamo": 8,
+                "codigo_libro": "L001",
+                "id_usuario": "U001"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'Don Quijote' a María García",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "id_prestamo": 9,
+                "codigo_libro": "L002",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de '1984' a Carlos López",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "id_prestamo": 10,
+                "codigo_libro": "L003",
+                "id_usuario": "U003"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Cien Años de Soledad' (a tiempo)",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "id_prestamo": 8,
+                "codigo_libro": "L001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Don Quijote' (a tiempo)",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "id_prestamo": 9,
+                "codigo_libro": "L002",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario María García en espera de '1984'",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "codigo_libro": "L003",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario Ana Martínez en espera de '1984'",
+            "timestamp": "2026-07-09 21:11:22",
+            "datos": {
+                "codigo_libro": "L003",
+                "id_usuario": "U004"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'Cien Años de Soledad' a Juan Pérez",
+            "timestamp": "2026-07-09 21:11:45",
+            "datos": {
+                "id_prestamo": 11,
+                "codigo_libro": "L001",
+                "id_usuario": "U001"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'Don Quijote' a María García",
+            "timestamp": "2026-07-09 21:11:45",
+            "datos": {
+                "id_prestamo": 12,
+                "codigo_libro": "L002",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Cien Años de Soledad' (a tiempo)",
+            "timestamp": "2026-07-09 21:11:45",
+            "datos": {
+                "id_prestamo": 11,
+                "codigo_libro": "L001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'Don Quijote' (a tiempo)",
+            "timestamp": "2026-07-09 21:11:45",
+            "datos": {
+                "id_prestamo": 12,
+                "codigo_libro": "L002",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario María García en espera de '1984'",
+            "timestamp": "2026-07-09 21:11:45",
+            "datos": {
+                "codigo_libro": "L003",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario Ana Martínez en espera de '1984'",
+            "timestamp": "2026-07-09 21:11:45",
+            "datos": {
+                "codigo_libro": "L003",
+                "id_usuario": "U004"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Python Avanzado",
+            "timestamp": "2026-07-09 21:12:33",
+            "datos": {
+                "codigo": "L005"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Orgullo y Prejuicio",
+            "timestamp": "2026-07-09 21:12:37",
+            "datos": {
+                "codigo": "L004"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: 1984",
+            "timestamp": "2026-07-09 21:12:41",
+            "datos": {
+                "codigo": "L003"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Don Quijote",
+            "timestamp": "2026-07-09 21:12:45",
+            "datos": {
+                "codigo": "L002"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_LIBRO",
+            "descripcion": "Libro eliminado: Cien Años de Soledad",
+            "timestamp": "2026-07-09 21:12:49",
+            "datos": {
+                "codigo": "L001"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: Carlos López",
+            "timestamp": "2026-07-09 21:13:04",
+            "datos": {
+                "id_usuario": "U003",
+                "nombre": "Carlos López"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: María García",
+            "timestamp": "2026-07-09 21:13:07",
+            "datos": {
+                "id_usuario": "U002",
+                "nombre": "María García"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: Ana Martínez",
+            "timestamp": "2026-07-09 21:13:12",
+            "datos": {
+                "id_usuario": "U004",
+                "nombre": "Ana Martínez"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: Juan Pérez",
+            "timestamp": "2026-07-09 21:13:15",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "Juan Pérez"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: ALQUIMISTA",
+            "timestamp": "2026-07-09 21:14:24",
+            "datos": {
+                "codigo": "L001",
+                "titulo": "ALQUIMISTA"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: DENGY",
+            "timestamp": "2026-07-09 21:15:06",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "DENGY"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: VINICIO",
+            "timestamp": "2026-07-09 21:15:31",
+            "datos": {
+                "id_usuario": "U002",
+                "nombre": "VINICIO"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'ALQUIMISTA' a VINICIO",
+            "timestamp": "2026-07-09 21:15:39",
+            "datos": {
+                "id_prestamo": 13,
+                "codigo_libro": "L001",
+                "id_usuario": "U002"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario DENGY en espera de 'ALQUIMISTA' (sin stock)",
+            "timestamp": "2026-07-09 21:15:51",
+            "datos": {
+                "codigo_libro": "L001",
+                "id_usuario": "U001"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: TONY",
+            "timestamp": "2026-07-09 21:16:29",
+            "datos": {
+                "id_usuario": "U003",
+                "nombre": "TONY"
+            }
+        },
+        {
+            "tipo": "USUARIO_EN_ESPERA",
+            "descripcion": "Usuario TONY en espera de 'ALQUIMISTA' (sin stock)",
+            "timestamp": "2026-07-09 21:16:40",
+            "datos": {
+                "codigo_libro": "L001",
+                "id_usuario": "U003"
+            }
+        },
+        {
+            "tipo": "DEVOLUCION",
+            "descripcion": "Devolución de 'ALQUIMISTA' (a tiempo)",
+            "timestamp": "2026-07-09 21:16:49",
+            "datos": {
+                "id_prestamo": 13,
+                "codigo_libro": "L001",
+                "estado": "Devuelto"
+            }
+        },
+        {
+            "tipo": "PRESTAMO_AUTOMATICO",
+            "descripcion": "Libro 'ALQUIMISTA' asignado automáticamente a DENGY (primero en la lista de espera)",
+            "timestamp": "2026-07-09 21:16:49",
+            "datos": {
+                "id_prestamo": 14,
+                "codigo_libro": "L001",
+                "id_usuario": "U001"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: vinicio",
+            "timestamp": "2026-07-10 09:53:31",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "vinicio"
+            }
+        },
+        {
+            "tipo": "ELIMINACION_USUARIO",
+            "descripcion": "Usuario eliminado: vinicio",
+            "timestamp": "2026-07-10 09:54:46",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "vinicio"
+            }
+        },
+        {
+            "tipo": "REGISTRO_LIBRO",
+            "descripcion": "Libro registrado: EL principito",
+            "timestamp": "2026-07-10 10:39:56",
+            "datos": {
+                "codigo": "L001",
+                "titulo": "EL principito"
+            }
+        },
+        {
+            "tipo": "REGISTRO_USUARIO",
+            "descripcion": "Usuario registrado: Vinicio",
+            "timestamp": "2026-07-10 10:40:29",
+            "datos": {
+                "id_usuario": "U001",
+                "nombre": "Vinicio"
+            }
+        },
+        {
+            "tipo": "PRESTAMO",
+            "descripcion": "Préstamo de 'EL principito' a Vinicio",
+            "timestamp": "2026-07-10 10:40:48",
+            "datos": {
+                "id_prestamo": 18,
+                "codigo_libro": "L001",
+                "id_usuario": "U001"
+            }
+        }
+    ],
+    "contador_prestamos": {
+        "L001": 3,
+        "L002": 1,
+        "L003": 1,
+        "L004": 0,
+        "L005": 0,
+        "L006": 0
+    }
+}
