@@ -344,3 +344,12 @@ class Accion(EntidadBiblioteca):
             'datos': self.datos
         }
 
+    @classmethod
+    def from_dict(cls, datos):
+        """Reconstruye una accion desde un diccionario JSON."""
+        accion = cls.__new__(cls)
+        accion.tipo = datos['tipo']
+        accion.descripcion = datos['descripcion']
+        accion.timestamp = _parse_datetime(datos.get('timestamp'), '%Y-%m-%d %H:%M:%S') or datetime.now()
+        accion.datos = datos.get('datos', {})
+        return accion
