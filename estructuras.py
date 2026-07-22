@@ -484,4 +484,3 @@ class ArbolBinarioBusqueda(EstructuraDatos):
             self._obtener_hojas_recursivo(nodo.derecha, hojas)
     
     def __str__(self):
-        return f"ArbolBST(tamano={self._tamano}, altura={self.altura_arbol()})"
