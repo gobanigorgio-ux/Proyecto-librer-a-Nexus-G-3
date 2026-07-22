@@ -1,3 +1,4 @@
+#tads
 """
 Tipos Abstractos de Datos para el Sistema de Gestión de Biblioteca
 Define las estructuras básicas: Libro, Usuario y Préstamo
